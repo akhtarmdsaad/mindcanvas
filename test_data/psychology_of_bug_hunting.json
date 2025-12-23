@@ -1,0 +1,661 @@
+{
+  "projectName": "Psychology of Bug Hunting",
+  "nodes": {
+    "root": {
+      "id": "root",
+      "parentId": null,
+      "childrenIds": [
+        "phase-honeymoon",
+        "phase-struggle",
+        "phase-toxicity",
+        "phase-crossroads",
+        "phase-zen"
+      ],
+      "x": 0,
+      "y": 0,
+      "width": 235,
+      "height": 52,
+      "content": [
+        {
+          "text": "The Hunter's Psyche",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "color": "#ffffff"
+        }
+      ],
+      "color": "#0f172a",
+      "shape": "rounded"
+    },
+    "phase-honeymoon": {
+      "id": "phase-honeymoon",
+      "parentId": "root",
+      "childrenIds": [
+        "node-dunning",
+        "node-easy-money",
+        "node-first-bug"
+      ],
+      "x": 314,
+      "y": -593.5,
+      "width": 233,
+      "height": 47,
+      "content": [
+        {
+          "text": "1. The Honeymoon Phase",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "color": "#ffffff"
+        }
+      ],
+      "color": "#10b981",
+      "shape": "rounded"
+    },
+    "node-dunning": {
+      "id": "node-dunning",
+      "parentId": "phase-honeymoon",
+      "childrenIds": [
+        "node-1766195581910"
+      ],
+      "x": 597,
+      "y": -660.5,
+      "width": 173,
+      "height": 47,
+      "content": [
+        {
+          "text": "Dunning-Kruger Peak",
+          "fontSize": 14
+        }
+      ],
+      "color": "#6ee7b7",
+      "shape": "rounded"
+    },
+    "node-easy-money": {
+      "id": "node-easy-money",
+      "parentId": "phase-honeymoon",
+      "childrenIds": [],
+      "x": 599.5,
+      "y": -555,
+      "width": 178,
+      "height": 47,
+      "content": [
+        {
+          "text": "Illusion of Easy Money",
+          "fontSize": 14
+        }
+      ],
+      "color": "#6ee7b7",
+      "shape": "rounded"
+    },
+    "node-first-bug": {
+      "id": "node-first-bug",
+      "parentId": "phase-honeymoon",
+      "childrenIds": [
+        "node-dopamine"
+      ],
+      "x": 598,
+      "y": -488,
+      "width": 175,
+      "height": 47,
+      "content": [
+        {
+          "text": "The First Valid Payout",
+          "fontSize": 14
+        }
+      ],
+      "color": "#6ee7b7",
+      "shape": "rounded"
+    },
+    "node-dopamine": {
+      "id": "node-dopamine",
+      "parentId": "node-first-bug",
+      "childrenIds": [],
+      "x": 854.5,
+      "y": -488,
+      "width": 178,
+      "height": 47,
+      "content": [
+        {
+          "text": "Dopamine Spike Addiction",
+          "fontSize": 12,
+          "fontStyle": "italic",
+          "color": "#064e3b"
+        }
+      ],
+      "color": "#a7f3d0",
+      "shape": "rounded"
+    },
+    "phase-struggle": {
+      "id": "phase-struggle",
+      "parentId": "root",
+      "childrenIds": [
+        "node-imposter",
+        "node-dupe-pain",
+        "node-dry-spell"
+      ],
+      "x": 308.5,
+      "y": -301,
+      "width": 222,
+      "height": 47,
+      "content": [
+        {
+          "text": "2. The Trough of Sorrow",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "color": "#ffffff"
+        }
+      ],
+      "color": "#ea580c",
+      "shape": "rounded"
+    },
+    "node-imposter": {
+      "id": "node-imposter",
+      "parentId": "phase-struggle",
+      "childrenIds": [
+        "node-twitter-envy",
+        "node-1766195636690"
+      ],
+      "x": 579.5,
+      "y": -368,
+      "width": 160,
+      "height": 45,
+      "content": [
+        {
+          "text": "Imposter Syndrome",
+          "fontSize": 14
+        }
+      ],
+      "color": "#fdba74",
+      "shape": "rounded"
+    },
+    "node-twitter-envy": {
+      "id": "node-twitter-envy",
+      "parentId": "node-imposter",
+      "childrenIds": [],
+      "x": 829,
+      "y": -421,
+      "width": 179,
+      "height": 47,
+      "content": [
+        {
+          "text": "Twitter/X Screenshot Envy",
+          "fontSize": 12,
+          "fontStyle": "italic"
+        }
+      ],
+      "color": "#ffedd5",
+      "shape": "rounded"
+    },
+    "node-dupe-pain": {
+      "id": "node-dupe-pain",
+      "parentId": "phase-struggle",
+      "childrenIds": [
+        "node-unfairness"
+      ],
+      "x": 598.5,
+      "y": -248,
+      "width": 198,
+      "height": 47,
+      "content": [
+        {
+          "text": "The Duplicate Heartbreak",
+          "fontSize": 14
+        }
+      ],
+      "color": "#fdba74",
+      "shape": "rounded"
+    },
+    "node-unfairness": {
+      "id": "node-unfairness",
+      "parentId": "node-dupe-pain",
+      "childrenIds": [],
+      "x": 853,
+      "y": -248,
+      "width": 151,
+      "height": 47,
+      "content": [
+        {
+          "text": "Feeling of Unfairness",
+          "fontSize": 12,
+          "fontStyle": "italic"
+        }
+      ],
+      "color": "#ffedd5",
+      "shape": "rounded"
+    },
+    "node-dry-spell": {
+      "id": "node-dry-spell",
+      "parentId": "phase-struggle",
+      "childrenIds": [],
+      "x": 588.5,
+      "y": -181,
+      "width": 178,
+      "height": 47,
+      "content": [
+        {
+          "text": "The 3-Month Dry Spell",
+          "fontSize": 14
+        }
+      ],
+      "color": "#fdba74",
+      "shape": "rounded"
+    },
+    "phase-toxicity": {
+      "id": "phase-toxicity",
+      "parentId": "root",
+      "childrenIds": [
+        "node-gambler",
+        "node-burnout",
+        "node-ego-triage"
+      ],
+      "x": 269.5,
+      "y": 5,
+      "width": 144,
+      "height": 47,
+      "content": [
+        {
+          "text": "3. Toxic Traps",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "color": "#ffffff"
+        }
+      ],
+      "color": "#dc2626",
+      "shape": "rounded"
+    },
+    "node-gambler": {
+      "id": "node-gambler",
+      "parentId": "phase-toxicity",
+      "childrenIds": [
+        "node-slot-machine",
+        "node-1766196015282"
+      ],
+      "x": 496.5,
+      "y": -61,
+      "width": 150,
+      "height": 47,
+      "content": [
+        {
+          "text": "Gambler's Fallacy",
+          "fontSize": 14
+        }
+      ],
+      "color": "#fca5a5",
+      "shape": "rounded"
+    },
+    "node-slot-machine": {
+      "id": "node-slot-machine",
+      "parentId": "node-gambler",
+      "childrenIds": [],
+      "x": 734.5,
+      "y": -114,
+      "width": 166,
+      "height": 47,
+      "content": [
+        {
+          "text": "\"Just one more request\"",
+          "fontSize": 12,
+          "fontStyle": "italic"
+        }
+      ],
+      "color": "#fee2e2",
+      "shape": "rounded"
+    },
+    "node-burnout": {
+      "id": "node-burnout",
+      "parentId": "phase-toxicity",
+      "childrenIds": [
+        "node-isolation"
+      ],
+      "x": 489,
+      "y": 59,
+      "width": 135,
+      "height": 47,
+      "content": [
+        {
+          "text": "Severe Burnout",
+          "fontSize": 14
+        }
+      ],
+      "color": "#fca5a5",
+      "shape": "rounded"
+    },
+    "node-isolation": {
+      "id": "node-isolation",
+      "parentId": "node-burnout",
+      "childrenIds": [],
+      "x": 701.5,
+      "y": 59,
+      "width": 130,
+      "height": 47,
+      "content": [
+        {
+          "text": "Social Isolation",
+          "fontSize": 12,
+          "fontStyle": "italic"
+        }
+      ],
+      "color": "#fee2e2",
+      "shape": "rounded"
+    },
+    "node-ego-triage": {
+      "id": "node-ego-triage",
+      "parentId": "phase-toxicity",
+      "childrenIds": [],
+      "x": 501.5,
+      "y": 125,
+      "width": 160,
+      "height": 45,
+      "content": [
+        {
+          "text": "Fighting with Triage",
+          "fontSize": 14
+        }
+      ],
+      "color": "#fca5a5",
+      "shape": "rounded"
+    },
+    "phase-crossroads": {
+      "id": "phase-crossroads",
+      "parentId": "root",
+      "childrenIds": [
+        "node-famine",
+        "node-job-pivot",
+        "node-golden-handcuffs"
+      ],
+      "x": 314,
+      "y": 311,
+      "width": 233,
+      "height": 47,
+      "content": [
+        {
+          "text": "4. The Career Crossroads",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "color": "#ffffff"
+        }
+      ],
+      "color": "#7c3aed",
+      "shape": "rounded"
+    },
+    "node-famine": {
+      "id": "node-famine",
+      "parentId": "phase-crossroads",
+      "childrenIds": [],
+      "x": 605,
+      "y": 191,
+      "width": 189,
+      "height": 47,
+      "content": [
+        {
+          "text": "Feast or Famine Anxiety",
+          "fontSize": 14
+        }
+      ],
+      "color": "#c4b5fd",
+      "shape": "rounded"
+    },
+    "node-golden-handcuffs": {
+      "id": "node-golden-handcuffs",
+      "parentId": "phase-crossroads",
+      "childrenIds": [
+        "node-1766195937217"
+      ],
+      "x": 585.5,
+      "y": 411.5,
+      "width": 150,
+      "height": 47,
+      "content": [
+        {
+          "text": "Golden Handcuffs",
+          "fontSize": 14
+        }
+      ],
+      "color": "#c4b5fd",
+      "shape": "rounded"
+    },
+    "node-job-pivot": {
+      "id": "node-job-pivot",
+      "parentId": "phase-crossroads",
+      "childrenIds": [
+        "node-pentest-job",
+        "node-quitting"
+      ],
+      "x": 600.5,
+      "y": 291.5,
+      "width": 180,
+      "height": 47,
+      "content": [
+        {
+          "text": "The Decision to Pivot",
+          "fontSize": 14,
+          "fontWeight": "bold"
+        }
+      ],
+      "color": "#c4b5fd",
+      "shape": "rounded"
+    },
+    "node-pentest-job": {
+      "id": "node-pentest-job",
+      "parentId": "node-job-pivot",
+      "childrenIds": [],
+      "x": 858.5,
+      "y": 258,
+      "width": 176,
+      "height": 47,
+      "content": [
+        {
+          "text": "Switch to Pentest/AppSec",
+          "fontSize": 12
+        }
+      ],
+      "color": "#ede9fe",
+      "shape": "rounded"
+    },
+    "node-quitting": {
+      "id": "node-quitting",
+      "parentId": "node-job-pivot",
+      "childrenIds": [],
+      "x": 857.5,
+      "y": 325,
+      "width": 174,
+      "height": 47,
+      "content": [
+        {
+          "text": "Quitting for Mental Health",
+          "fontSize": 12
+        }
+      ],
+      "color": "#ede9fe",
+      "shape": "rounded"
+    },
+    "phase-zen": {
+      "id": "phase-zen",
+      "parentId": "root",
+      "childrenIds": [
+        "node-detachment",
+        "node-curiosity",
+        "node-community",
+        "node-balance"
+      ],
+      "x": 284,
+      "y": 598.5,
+      "width": 173,
+      "height": 47,
+      "content": [
+        {
+          "text": "5. The Zen Master",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "color": "#ffffff"
+        }
+      ],
+      "color": "#2563eb",
+      "shape": "rounded"
+    },
+    "node-detachment": {
+      "id": "node-detachment",
+      "parentId": "phase-zen",
+      "childrenIds": [
+        "node-worth"
+      ],
+      "x": 537.5,
+      "y": 498,
+      "width": 174,
+      "height": 47,
+      "content": [
+        {
+          "text": "Outcome Detachment",
+          "fontSize": 14
+        }
+      ],
+      "color": "#93c5fd",
+      "shape": "rounded"
+    },
+    "node-worth": {
+      "id": "node-worth",
+      "parentId": "node-detachment",
+      "childrenIds": [],
+      "x": 788.5,
+      "y": 498,
+      "width": 168,
+      "height": 47,
+      "content": [
+        {
+          "text": "Self-Worth != Bug Count",
+          "fontSize": 12,
+          "fontStyle": "italic"
+        }
+      ],
+      "color": "#dbeafe",
+      "shape": "rounded"
+    },
+    "node-curiosity": {
+      "id": "node-curiosity",
+      "parentId": "phase-zen",
+      "childrenIds": [],
+      "x": 540.5,
+      "y": 565,
+      "width": 180,
+      "height": 47,
+      "content": [
+        {
+          "text": "Joy of Discovery > $$$",
+          "fontSize": 14
+        }
+      ],
+      "color": "#93c5fd",
+      "shape": "rounded"
+    },
+    "node-community": {
+      "id": "node-community",
+      "parentId": "phase-zen",
+      "childrenIds": [],
+      "x": 559,
+      "y": 632,
+      "width": 217,
+      "height": 47,
+      "content": [
+        {
+          "text": "Collaboration vs Competition",
+          "fontSize": 14
+        }
+      ],
+      "color": "#93c5fd",
+      "shape": "rounded"
+    },
+    "node-balance": {
+      "id": "node-balance",
+      "parentId": "phase-zen",
+      "childrenIds": [],
+      "x": 524.5,
+      "y": 699,
+      "width": 148,
+      "height": 47,
+      "content": [
+        {
+          "text": "Rest is a Weapon",
+          "fontSize": 14
+        }
+      ],
+      "color": "#93c5fd",
+      "shape": "rounded"
+    },
+    "node-1766195581910": {
+      "id": "node-1766195581910",
+      "parentId": "node-dunning",
+      "childrenIds": [],
+      "x": 978.5,
+      "y": -660.5,
+      "width": 430,
+      "height": 124,
+      "content": [
+        {
+          "text": "the initial, highly confident stage in the Dunning-Kruger effect where beginners, due to their limited knowledge, vastly overestimate their competence, before crashing into the \"Valley of Despair\" as they realize the true depth of what they don't know",
+          "fontSize": 14
+        }
+      ],
+      "color": "#94a3b8",
+      "shape": "rounded"
+    },
+    "node-1766195636690": {
+      "id": "node-1766195636690",
+      "parentId": "node-imposter",
+      "childrenIds": [],
+      "x": 954.5,
+      "y": -334.5,
+      "width": 430,
+      "height": 86,
+      "content": [
+        {
+          "text": "a psychological pattern where high-achievers doubt their skills, feel like frauds, and fear being exposed, despite evidence of their competence, often attributing success to luck ",
+          "fontSize": 14
+        }
+      ],
+      "color": "#94a3b8",
+      "shape": "rounded"
+    },
+    "node-1766195937217": {
+      "id": "node-1766195937217",
+      "parentId": "node-golden-handcuffs",
+      "childrenIds": [],
+      "x": 955.5,
+      "y": 411.5,
+      "width": 430,
+      "height": 86,
+      "content": [
+        {
+          "text": "financial incentives (like stock options, bonuses, or perks) offered by employers to key employees to encourage them to stay long-term",
+          "fontSize": 14
+        }
+      ],
+      "color": "#94a3b8",
+      "shape": "rounded"
+    },
+    "node-1766196015282": {
+      "id": "node-1766196015282",
+      "parentId": "node-gambler",
+      "childrenIds": [],
+      "x": 866.5,
+      "y": -27.5,
+      "width": 430,
+      "height": 86,
+      "content": [
+        {
+          "text": "belief that if a random event has occurred more frequently than normal during a period, it is less likely to occur in the future, or vice versa",
+          "fontSize": 14
+        }
+      ],
+      "color": "#94a3b8",
+      "shape": "rounded"
+    }
+  },
+  "rootId": "root",
+  "relationships": [],
+  "layoutMode": "MIND_MAP",
+  "selectedNodeId": null,
+  "editingNodeId": null,
+  "zoomTransform": {
+    "k": 0.5929042682509521,
+    "x": 221.45903241041196,
+    "y": 319.3803286287646
+  }
+}

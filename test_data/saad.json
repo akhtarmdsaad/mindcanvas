@@ -1,0 +1,462 @@
+{
+  "projectName": "The Sonic Strategist Profile",
+  "nodes": {
+    "root": {
+      "id": "root",
+      "parentId": null,
+      "childrenIds": [
+        "node-psychology",
+        "node-factory",
+        "node-hacking",
+        "node-strategy"
+      ],
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 60,
+      "content": [
+        {
+          "text": "The Sonic Strategist",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "color": "#ffffff",
+          "fontStyle": "italic"
+        },
+        {
+          "text": "(Master Profile)",
+          "fontSize": 12,
+          "color": "#e2e8f0"
+        }
+      ],
+      "color": "#1e293b",
+      "shape": "rounded"
+    },
+    "node-psychology": {
+      "id": "node-psychology",
+      "parentId": "root",
+      "childrenIds": [
+        "node-music",
+        "node-social",
+        "node-traits"
+      ],
+      "x": -300,
+      "y": -150,
+      "width": 160,
+      "height": 50,
+      "content": [
+        {
+          "text": "🧠 Internal World",
+          "fontSize": 16,
+          "fontWeight": "bold"
+        }
+      ],
+      "color": "#8b5cf6",
+      "shape": "rounded"
+    },
+    "node-music": {
+      "id": "node-music",
+      "parentId": "node-psychology",
+      "childrenIds": [],
+      "x": -550,
+      "y": -200,
+      "width": 150,
+      "height": 60,
+      "content": [
+        {
+          "text": "Music Regulation",
+          "fontWeight": "bold"
+        },
+        {
+          "text": "Focus: Snowfall/Phonk",
+          "fontSize": 12
+        },
+        {
+          "text": "Feeling: Sad Pop (Tragic)",
+          "fontSize": 12
+        }
+      ],
+      "color": "#a78bfa",
+      "shape": "rounded"
+    },
+    "node-social": {
+      "id": "node-social",
+      "parentId": "node-psychology",
+      "childrenIds": [],
+      "x": -550,
+      "y": -120,
+      "width": 150,
+      "height": 60,
+      "content": [
+        {
+          "text": "Social Mask",
+          "fontWeight": "bold"
+        },
+        {
+          "text": "Machiavellian Polite",
+          "fontSize": 12
+        },
+        {
+          "text": "The Door Slam (Delete)",
+          "fontSize": 12
+        }
+      ],
+      "color": "#a78bfa",
+      "shape": "rounded"
+    },
+    "node-traits": {
+      "id": "node-traits",
+      "parentId": "node-psychology",
+      "childrenIds": [],
+      "x": -550,
+      "y": -40,
+      "width": 150,
+      "height": 50,
+      "content": [
+        {
+          "text": "High Sensitivity",
+          "fontWeight": "bold"
+        },
+        {
+          "text": "Feelings @ 4k Resolution",
+          "fontSize": 12
+        }
+      ],
+      "color": "#a78bfa",
+      "shape": "rounded"
+    },
+    "node-factory": {
+      "id": "node-factory",
+      "parentId": "root",
+      "childrenIds": [
+        "node-labor-problems",
+        "node-labor-solutions",
+        "node-factory-status"
+      ],
+      "x": 300,
+      "y": -150,
+      "width": 180,
+      "height": 50,
+      "content": [
+        {
+          "text": "🏭 The Factory (Iron Man)",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "color": "#ffffff"
+        }
+      ],
+      "color": "#ea580c",
+      "shape": "rounded"
+    },
+    "node-labor-problems": {
+      "id": "node-labor-problems",
+      "parentId": "node-factory",
+      "childrenIds": [],
+      "x": 550,
+      "y": -220,
+      "width": 180,
+      "height": 80,
+      "content": [
+        {
+          "text": "⚠️ The Human Layer Issues",
+          "fontWeight": "bold",
+          "color": "#ffffff"
+        },
+        {
+          "text": "1. Illiterate / No Quality Focus",
+          "fontSize": 12,
+          "color": "#ffffff"
+        },
+        {
+          "text": "2. Need Constant CCTV",
+          "fontSize": 12,
+          "color": "#ffffff"
+        },
+        {
+          "text": "3. Flight Risk (Hate Stress)",
+          "fontSize": 12,
+          "color": "#ffffff"
+        }
+      ],
+      "color": "#ef4444",
+      "shape": "rounded"
+    },
+    "node-labor-solutions": {
+      "id": "node-labor-solutions",
+      "parentId": "node-factory",
+      "childrenIds": [
+        "node-quality-fix",
+        "node-echo-protocol"
+      ],
+      "x": 550,
+      "y": -100,
+      "width": 180,
+      "height": 70,
+      "content": [
+        {
+          "text": "🛠️ Management Fixes",
+          "fontWeight": "bold"
+        },
+        {
+          "text": "Goal: Autonomy without Stress",
+          "fontSize": 12
+        },
+        {
+          "text": "Method: Gamification",
+          "fontSize": 12
+        }
+      ],
+      "color": "#22c55e",
+      "shape": "rounded"
+    },
+    "node-quality-fix": {
+      "id": "node-quality-fix",
+      "parentId": "node-labor-solutions",
+      "childrenIds": [],
+      "x": 780,
+      "y": -130,
+      "width": 160,
+      "height": 60,
+      "content": [
+        {
+          "text": "Fixing Qty over Quality",
+          "fontWeight": "bold"
+        },
+        {
+          "text": "Action: Reject Entire Batch",
+          "fontSize": 12
+        },
+        {
+          "text": "Pay = 0 for Bad Bricks",
+          "fontSize": 12
+        }
+      ],
+      "color": "#86efac",
+      "shape": "rounded"
+    },
+    "node-echo-protocol": {
+      "id": "node-echo-protocol",
+      "parentId": "node-labor-solutions",
+      "childrenIds": [],
+      "x": 780,
+      "y": -50,
+      "width": 160,
+      "height": 60,
+      "content": [
+        {
+          "text": "Echo Protocol",
+          "fontWeight": "bold"
+        },
+        {
+          "text": "Visual Timers (Sun/Siren)",
+          "fontSize": 12
+        },
+        {
+          "text": "Workers repeat orders back",
+          "fontSize": 12
+        }
+      ],
+      "color": "#86efac",
+      "shape": "rounded"
+    },
+    "node-factory-status": {
+      "id": "node-factory-status",
+      "parentId": "node-factory",
+      "childrenIds": [],
+      "x": 550,
+      "y": -10,
+      "width": 180,
+      "height": 50,
+      "content": [
+        {
+          "text": "Financial Status",
+          "fontWeight": "bold",
+          "color": "#ffffff"
+        },
+        {
+          "text": "Cash Cow (Funding Hacking)",
+          "fontSize": 12,
+          "color": "#ffffff"
+        }
+      ],
+      "color": "#f59e0b",
+      "shape": "rounded"
+    },
+    "node-hacking": {
+      "id": "node-hacking",
+      "parentId": "root",
+      "childrenIds": [
+        "node-hacking-status",
+        "node-hacking-achievements",
+        "node-hacking-identity"
+      ],
+      "x": 300,
+      "y": 150,
+      "width": 180,
+      "height": 50,
+      "content": [
+        {
+          "text": "💻 The Hacker (Batman)",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "color": "#ffffff"
+        }
+      ],
+      "color": "#0ea5e9",
+      "shape": "rounded"
+    },
+    "node-hacking-status": {
+      "id": "node-hacking-status",
+      "parentId": "node-hacking",
+      "childrenIds": [],
+      "x": 550,
+      "y": 80,
+      "width": 160,
+      "height": 60,
+      "content": [
+        {
+          "text": "Current Status",
+          "fontWeight": "bold"
+        },
+        {
+          "text": "Passive Recon (Till Feb)",
+          "fontSize": 12
+        },
+        {
+          "text": "Clearing Factory backlog",
+          "fontSize": 12
+        }
+      ],
+      "color": "#7dd3fc",
+      "shape": "rounded"
+    },
+    "node-hacking-achievements": {
+      "id": "node-hacking-achievements",
+      "parentId": "node-hacking",
+      "childrenIds": [],
+      "x": 550,
+      "y": 150,
+      "width": 160,
+      "height": 50,
+      "content": [
+        {
+          "text": "Proof of Work",
+          "fontWeight": "bold"
+        },
+        {
+          "text": "2 Critical / 1 High Bug",
+          "fontSize": 12
+        }
+      ],
+      "color": "#7dd3fc",
+      "shape": "rounded"
+    },
+    "node-hacking-identity": {
+      "id": "node-hacking-identity",
+      "parentId": "node-hacking",
+      "childrenIds": [],
+      "x": 550,
+      "y": 210,
+      "width": 160,
+      "height": 50,
+      "content": [
+        {
+          "text": "Shadow Protocol",
+          "fontWeight": "bold"
+        },
+        {
+          "text": "Anonymous Avatar",
+          "fontSize": 12
+        }
+      ],
+      "color": "#7dd3fc",
+      "shape": "rounded"
+    },
+    "node-strategy": {
+      "id": "node-strategy",
+      "parentId": "root",
+      "childrenIds": [
+        "node-methodology",
+        "node-risks"
+      ],
+      "x": -300,
+      "y": 150,
+      "width": 160,
+      "height": 50,
+      "content": [
+        {
+          "text": "⚔️ Grand Strategy",
+          "fontSize": 16,
+          "fontWeight": "bold"
+        }
+      ],
+      "color": "#64748b",
+      "shape": "rounded"
+    },
+    "node-methodology": {
+      "id": "node-methodology",
+      "parentId": "node-strategy",
+      "childrenIds": [],
+      "x": -550,
+      "y": 120,
+      "width": 160,
+      "height": 70,
+      "content": [
+        {
+          "text": "Agile Methodology",
+          "fontWeight": "bold",
+          "color": "#ffffff"
+        },
+        {
+          "text": "Serial Processing (One by One)",
+          "fontSize": 12,
+          "color": "#ffffff"
+        },
+        {
+          "text": "Detachment ('Wasting Time')",
+          "fontSize": 12,
+          "color": "#ffffff"
+        }
+      ],
+      "color": "#94a3b8",
+      "shape": "rounded"
+    },
+    "node-risks": {
+      "id": "node-risks",
+      "parentId": "node-strategy",
+      "childrenIds": [],
+      "x": -550,
+      "y": 210,
+      "width": 160,
+      "height": 60,
+      "content": [
+        {
+          "text": "Critical Risks",
+          "fontWeight": "bold",
+          "color": "#ffffff"
+        },
+        {
+          "text": "Cold Start (Feb Rust)",
+          "fontSize": 12,
+          "color": "#ffffff"
+        },
+        {
+          "text": "Family Trap (Expansion)",
+          "fontSize": 12,
+          "color": "#ffffff"
+        }
+      ],
+      "color": "#ef4444",
+      "shape": "rounded"
+    }
+  },
+  "rootId": "root",
+  "relationships": [],
+  "layoutMode": "MIND_MAP",
+  "selectedNodeId": null,
+  "editingNodeId": null,
+  "zoomTransform": {
+    "k": 1,
+    "x": 0,
+    "y": 0
+  }
+}

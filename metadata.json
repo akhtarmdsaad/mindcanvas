@@ -1,0 +1,5 @@
+{
+  "name": "MindCanvas",
+  "description": "A high-performance mind-mapping application with support for rich-text nodes, multiple layout algorithms (Mind Map, Concept Map, Organigram), and advanced visual editing.",
+  "requestFramePermissions": []
+}

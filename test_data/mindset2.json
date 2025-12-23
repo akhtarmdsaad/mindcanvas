@@ -1,0 +1,327 @@
+{
+  "projectName": "The Ultimate Bug Hunter Psyche: Human + AI",
+  "nodes": {
+    "root": {
+      "id": "root",
+      "parentId": null,
+      "childrenIds": [
+        "branch-cognitive-bias",
+        "branch-emotional-cycle",
+        "branch-ai-hybrid",
+        "branch-career-pivot"
+      ],
+      "x": 0,
+      "y": 0,
+      "width": 250,
+      "height": 80,
+      "content": [
+        {
+          "text": "The Ultimate Hunter Mindset",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "color": "#ffffff"
+        },
+        {
+          "text": "Merging Psychology & AI Logic",
+          "fontSize": 14,
+          "color": "#cbd5e1",
+          "fontStyle": "italic"
+        }
+      ],
+      "color": "#0f172a",
+      "shape": "rounded"
+    },
+    "branch-cognitive-bias": {
+      "id": "branch-cognitive-bias",
+      "parentId": "root",
+      "childrenIds": [
+        "node-functional-fixedness",
+        "node-confirmation-bias",
+        "node-sunk-cost"
+      ],
+      "x": 400,
+      "y": -600,
+      "width": 220,
+      "height": 60,
+      "content": [
+        {
+          "text": "1. Hacking Your Own Brain",
+          "fontSize": 18,
+          "fontWeight": "bold",
+          "color": "#ffffff"
+        },
+        {
+          "text": "Overcoming Cognitive Biases",
+          "fontSize": 12,
+          "color": "#e2e8f0"
+        }
+      ],
+      "color": "#b91c1c",
+      "shape": "rounded"
+    },
+    "node-functional-fixedness": {
+      "id": "node-functional-fixedness",
+      "parentId": "branch-cognitive-bias",
+      "childrenIds": [],
+      "x": 800,
+      "y": -750,
+      "width": 400,
+      "height": 220,
+      "content": [
+        {
+          "text": "Breaking 'Functional Fixedness'",
+          "fontSize": 16,
+          "fontWeight": "bold"
+        },
+        {
+          "text": "EXPLANATION:\nThis is a psychological block where you only see an object or feature for its intended use. A developer sees a 'Profile Picture Upload' as a way to show a face. A hacker must see it as a file system interaction, a potential XSS vector, or a server resource consumer. You must unlearn the 'rules' of how software is supposed to work.\n\nEXAMPLES:\n1. The 'Contact Us' form isn't for support; it's a blind entry point to the internal employee admin panel (Blind XSS).\n2. The 'Currency Converter' isn't for math; it's a float-precision error generator.\n3. The 'PDF Export' button isn't for printing; it's a server-side browser you can trick into reading local files (SSRF).\n4. An API version number (v1) isn't just a label; it's a time machine to access old, unpatched code (v0.9).",
+          "fontSize": 12
+        }
+      ],
+      "color": "#fecaca",
+      "shape": "rounded"
+    },
+    "node-confirmation-bias": {
+      "id": "node-confirmation-bias",
+      "parentId": "branch-cognitive-bias",
+      "childrenIds": [],
+      "x": 800,
+      "y": -500,
+      "width": 400,
+      "height": 200,
+      "content": [
+        {
+          "text": "Escaping Confirmation Bias",
+          "fontSize": 16,
+          "fontWeight": "bold"
+        },
+        {
+          "text": "EXPLANATION:\nIf you love XSS, you will stare at a login page and only test for XSS. You will miss the glaring SQL Injection or Logic Flaw because your brain is only scanning for evidence that confirms your favorite bug type exists. You stop seeing what is actually there.\n\nEXAMPLES:\n1. You spend 5 hours trying to pop an alert box (XSS) in a search bar, completely missing that you can access other users' search history by changing the ID in the URL (IDOR).\n2. You ignore a '403 Forbidden' response assuming it's secure, instead of checking if the mobile app API endpoint allows the same request.\n3. You focus on the complex payment gateway, missing that the 'Apply Coupon' field allows negative numbers.",
+          "fontSize": 12
+        }
+      ],
+      "color": "#fecaca",
+      "shape": "rounded"
+    },
+    "node-sunk-cost": {
+      "id": "node-sunk-cost",
+      "parentId": "branch-cognitive-bias",
+      "childrenIds": [],
+      "x": 800,
+      "y": -280,
+      "width": 400,
+      "height": 200,
+      "content": [
+        {
+          "text": "The Sunk Cost Rabbit Hole",
+          "fontSize": 16,
+          "fontWeight": "bold"
+        },
+        {
+          "text": "EXPLANATION:\n'I have spent 10 hours on this endpoint, I cannot stop now or those 10 hours were wasted.' This mindset destroys bug hunters. It leads to burnout and gambling addiction behavior. A professional knows when to pivot.\n\nEXAMPLES:\n1. Spending 3 days bypassing a WAF for a bug that might only be a Low severity.\n2. Refusing to switch programs because you already did the recon, even though the program is hardened and yielding no results.\n3. Getting angry at the target software, treating it as a personal enemy rather than a puzzle.",
+          "fontSize": 12
+        }
+      ],
+      "color": "#fecaca",
+      "shape": "rounded"
+    },
+    "branch-emotional-cycle": {
+      "id": "branch-emotional-cycle",
+      "parentId": "root",
+      "childrenIds": [
+        "node-imposter-syndrome",
+        "node-duplicate-grief",
+        "node-golden-handcuffs"
+      ],
+      "x": 400,
+      "y": 100,
+      "width": 220,
+      "height": 60,
+      "content": [
+        {
+          "text": "2. Emotional Resilience",
+          "fontSize": 18,
+          "fontWeight": "bold",
+          "color": "#ffffff"
+        },
+        {
+          "text": "Surviving the Highs & Lows",
+          "fontSize": 12,
+          "color": "#e2e8f0"
+        }
+      ],
+      "color": "#d97706",
+      "shape": "rounded"
+    },
+    "node-imposter-syndrome": {
+      "id": "node-imposter-syndrome",
+      "parentId": "branch-emotional-cycle",
+      "childrenIds": [],
+      "x": 800,
+      "y": -50,
+      "width": 400,
+      "height": 220,
+      "content": [
+        {
+          "text": "The Imposter Syndrome Loop",
+          "fontSize": 16,
+          "fontWeight": "bold"
+        },
+        {
+          "text": "EXPLANATION:\nBug hunting is unique because you fail 99% of the time. When you see others posting huge bounties on Twitter/X, you feel like a fraud. You think 'I just got lucky with my last bug, I actually know nothing.' This causes anxiety and prevents you from hunting.\n\nEXAMPLES/COPING:\n1. Situation: You see a $10,000 bounty tweet. \n   Mindset Shift: Remind yourself that they didn't tweet the 4 months of zero bugs they had before that.\n2. Situation: You read a write-up and don't understand it.\n   Mindset Shift: Treat it as a curriculum, not a test. 'I don't know this YET.'\n3. Situation: You get a 'Not Applicable' (NA).\n   Mindset Shift: The finding was technically correct, but the business impact wasn't there. You successfully hacked the code, but not the business model.",
+          "fontSize": 12
+        }
+      ],
+      "color": "#fde68a",
+      "shape": "rounded"
+    },
+    "node-duplicate-grief": {
+      "id": "node-duplicate-grief",
+      "parentId": "branch-emotional-cycle",
+      "childrenIds": [],
+      "x": 800,
+      "y": 180,
+      "width": 400,
+      "height": 220,
+      "content": [
+        {
+          "text": "Processing the 'Duplicate' Pain",
+          "fontSize": 16,
+          "fontWeight": "bold"
+        },
+        {
+          "text": "EXPLANATION:\nGetting a duplicate is the most painful psychological hit. You did the work, you found the hole, but you get $0 because someone was 1 hour faster. Many quit here.\n\nEXAMPLES/COPING:\n1. The Validation: A duplicate proves you are GOOD. You found a valid vulnerability that the company cares about. You are on the right path.\n2. The Race: If you find a bug in a main feature (like login), assume it's a dupe. If you find it in a obscure javascript file buried in a sub-sub-domain, it's likely unique.\n3. The Strategy: Use duplicates to calibrate your recon. If you get many dupes, you are looking where everyone else is looking. Go deeper or wider.",
+          "fontSize": 12
+        }
+      ],
+      "color": "#fde68a",
+      "shape": "rounded"
+    },
+    "node-golden-handcuffs": {
+      "id": "node-golden-handcuffs",
+      "parentId": "branch-emotional-cycle",
+      "childrenIds": [],
+      "x": 800,
+      "y": 410,
+      "width": 400,
+      "height": 200,
+      "content": [
+        {
+          "text": "The Job vs. Bounty Crossroads",
+          "fontSize": 16,
+          "fontWeight": "bold"
+        },
+        {
+          "text": "EXPLANATION:\nThe stress of 'Feast or Famine' (making $5k one month, $0 the next) destroys mental health. Many hunters struggle with the decision to get a 9-5 job.\n\nEXAMPLES:\n1. The Transition: Moving from full-time hunting to a Pentest job allows you to hunt on weekends without the stress of 'paying rent' with bounties. This usually INCREASES bounty performance because the desperation is gone.\n2. The Burnout Trap: Hunting 12 hours a day because you 'need' the money usually leads to shallower findings because you are rushing.",
+          "fontSize": 12
+        }
+      ],
+      "color": "#fde68a",
+      "shape": "rounded"
+    },
+    "branch-ai-hybrid": {
+      "id": "branch-ai-hybrid",
+      "parentId": "root",
+      "childrenIds": [
+        "node-ai-context",
+        "node-ai-pattern",
+        "node-ai-logic"
+      ],
+      "x": 400,
+      "y": 700,
+      "width": 220,
+      "height": 60,
+      "content": [
+        {
+          "text": "3. The AI-Enhanced Hunter",
+          "fontSize": 18,
+          "fontWeight": "bold",
+          "color": "#ffffff"
+        },
+        {
+          "text": "How an LLM would hunt",
+          "fontSize": 12,
+          "color": "#e2e8f0"
+        }
+      ],
+      "color": "#15803d",
+      "shape": "rounded"
+    },
+    "node-ai-context": {
+      "id": "node-ai-context",
+      "parentId": "branch-ai-hybrid",
+      "childrenIds": [],
+      "x": 800,
+      "y": 630,
+      "width": 400,
+      "height": 250,
+      "content": [
+        {
+          "text": "Ingesting Context (The Semantic Layer)",
+          "fontSize": 16,
+          "fontWeight": "bold"
+        },
+        {
+          "text": "EXPLANATION:\nHumans look for syntax errors ( ' OR 1=1 ). An AI/LLM mindset looks for SEMANTIC errors. If I were hunting, I would not just fuzz inputs. I would ingest the entire 'Help' documentation and 'API Docs' to build a model of how the business claims to work, then find where the code contradicts that claim.\n\nEXAMPLES:\n1. Documentation says: 'Users can only invite members with the same email domain.'\n   Strategy: I would specifically craft a request inviting a public gmail address to see if the backend code actually enforces what the documentation claims (Logic vs. Code mismatch).\n2. Context Scanning: Feed the Terms of Service to an LLM and ask 'What are the premium features?'. Then go to the application and try to access those specific features without paying (Freemium Bypass).",
+          "fontSize": 12
+        }
+      ],
+      "color": "#bbf7d0",
+      "shape": "rounded"
+    },
+    "node-ai-pattern": {
+      "id": "node-ai-pattern",
+      "parentId": "branch-ai-hybrid",
+      "childrenIds": [],
+      "x": 800,
+      "y": 900,
+      "width": 400,
+      "height": 220,
+      "content": [
+        {
+          "text": "Pattern Recognition at Scale",
+          "fontSize": 16,
+          "fontWeight": "bold"
+        },
+        {
+          "text": "EXPLANATION:\nA human gets tired after checking 50 endpoints. An AI mindset is about automation of the 'boring' to save energy for the 'weird'. You should script the recognition of technology stacks to predict vulnerabilities based on history.\n\nEXAMPLES:\n1. If I see a site using 'Liferay Portal', I immediately pull every CVE associated with Liferay from the last 5 years and check specific paths. I don't waste time checking for WordPress bugs on a Java stack.\n2. Diffing: Monitor a target's JavaScript files. If `app.js` changes size by 5KB, I analyze only that diff. Did they add a new API route? Did they patch a regex? The change is where the bug lives.",
+          "fontSize": 12
+        }
+      ],
+      "color": "#bbf7d0",
+      "shape": "rounded"
+    },
+    "node-ai-logic": {
+      "id": "node-ai-logic",
+      "parentId": "branch-ai-hybrid",
+      "childrenIds": [],
+      "x": 800,
+      "y": 1150,
+      "width": 400,
+      "height": 220,
+      "content": [
+        {
+          "text": "Attack Chaining (The Grand Strategy)",
+          "fontSize": 16,
+          "fontWeight": "bold"
+        },
+        {
+          "text": "EXPLANATION:\nLow-level hunters report a low-severity bug immediately. Advanced hunters (and AI models) hold that bug and look for a second one to combine them. This is 'Chaining'.\n\nEXAMPLES:\n1. Bug A: You find a Self-XSS (only executes in your own browser). Most triage teams reject this.\n   Bug B: You find a CSRF (forcing a user to click a link).\n   The Chain: You use the CSRF to force the victim to execute the Self-XSS. Now you have a full Account Takeover. Value goes from $0 to $2,000.\n2. Bug A: An Open Redirect (low impact).\n   Bug B: An OAuth login flow.\n   The Chain: Use the Open Redirect to steal the OAuth token during the login process.",
+          "fontSize": 12
+        }
+      ],
+      "color": "#bbf7d0",
+      "shape": "rounded"
+    }
+  },
+  "rootId": "root",
+  "relationships": [],
+  "layoutMode": "MIND_MAP",
+  "selectedNodeId": null,
+  "editingNodeId": null,
+  "zoomTransform": {
+    "k": 0.4,
+    "x": 100,
+    "y": 300
+  }
+}

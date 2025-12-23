@@ -1,0 +1,168 @@
+{
+  "projectName": "analyse",
+  "nodes": {
+    "root": {
+      "id": "root",
+      "parentId": null,
+      "childrenIds": [
+        "node-1766194250455",
+        "node-1766194356795",
+        "node-1766194362188",
+        "node-1766194477749"
+      ],
+      "x": 0,
+      "y": 0,
+      "width": 184,
+      "height": 50,
+      "content": [
+        {
+          "text": "this is Root node",
+          "fontSize": 18,
+          "fontWeight": "bold",
+          "color": "#ffffff",
+          "fontStyle": "italic"
+        }
+      ],
+      "color": "#3b82f6",
+      "shape": "rounded"
+    },
+    "node-1766194250455": {
+      "id": "node-1766194250455",
+      "parentId": "root",
+      "childrenIds": [],
+      "x": 237,
+      "y": -134,
+      "width": 130,
+      "height": 47,
+      "content": [
+        {
+          "text": "Node 1",
+          "fontSize": 14
+        }
+      ],
+      "color": "#f59e0b",
+      "shape": "rounded"
+    },
+    "node-1766194356795": {
+      "id": "node-1766194356795",
+      "parentId": "root",
+      "childrenIds": [
+        "node-1766194500297",
+        "node-1766194504256"
+      ],
+      "x": 237,
+      "y": -33.5,
+      "width": 130,
+      "height": 47,
+      "content": [
+        {
+          "text": "Node 2",
+          "fontSize": 14
+        }
+      ],
+      "color": "#ec4899",
+      "shape": "rounded"
+    },
+    "node-1766194362188": {
+      "id": "node-1766194362188",
+      "parentId": "root",
+      "childrenIds": [],
+      "x": 237,
+      "y": 67,
+      "width": 130,
+      "height": 47,
+      "content": [
+        {
+          "text": "Node 4",
+          "fontSize": 14,
+          "color": "#ffffff"
+        }
+      ],
+      "color": "#64748b",
+      "shape": "rounded"
+    },
+    "node-1766194477749": {
+      "id": "node-1766194477749",
+      "parentId": "root",
+      "childrenIds": [],
+      "x": 237,
+      "y": 134,
+      "width": 130,
+      "height": 47,
+      "content": [
+        {
+          "text": "Node 3",
+          "fontSize": 14
+        }
+      ],
+      "color": "transparent",
+      "shape": "rounded"
+    },
+    "node-1766194500297": {
+      "id": "node-1766194500297",
+      "parentId": "node-1766194356795",
+      "childrenIds": [],
+      "x": 447,
+      "y": -67,
+      "width": 130,
+      "height": 47,
+      "content": [
+        {
+          "text": "Node 5",
+          "fontSize": 14,
+          "color": "#ffffff"
+        }
+      ],
+      "color": "#8b5cf6",
+      "shape": "rounded"
+    },
+    "node-1766194504256": {
+      "id": "node-1766194504256",
+      "parentId": "node-1766194356795",
+      "childrenIds": [
+        "node-1766194511726"
+      ],
+      "x": 447,
+      "y": 0,
+      "width": 130,
+      "height": 47,
+      "content": [
+        {
+          "text": "Node 6",
+          "fontSize": 14
+        }
+      ],
+      "color": "#94a3b8",
+      "shape": "rounded"
+    },
+    "node-1766194511726": {
+      "id": "node-1766194511726",
+      "parentId": "node-1766194504256",
+      "childrenIds": [],
+      "x": 657,
+      "y": 0,
+      "width": 130,
+      "height": 47,
+      "content": [
+        {
+          "text": "Node 7",
+          "fontSize": 14,
+          "fontStyle": "italic",
+          "color": "#3b82f6"
+        }
+      ],
+      "color": "#ffffff",
+      "shape": "rounded"
+    }
+  },
+  "rootId": "root",
+  "relationships": [],
+  "layoutMode": "MIND_MAP",
+  "selectedNodeId": null,
+  "editingNodeId": null,
+  "zoomTransform": {
+    "k": 1,
+    "x": 455,
+    "y": 392.5
+  }
+}
